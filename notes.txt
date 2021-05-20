@@ -1,0 +1,32 @@
+Deconstruct:
+
+
+1. Characters -> Pacman and ghosts
+   2 types ->  Playing (PC) & Non-Playing (NPC)
+
+2. Defined goal -> Pacman (collect all food points)
+                  Ludo (all 4 subplayers reach the house)
+
+3. Rules -> Pacman - can't cross walls
+                     when big food is eaten, ghosts become inactive
+                     collect all points to win the game
+                     if ghosts are touched when inactive, they die and ressurrect, and you get 200 points
+                     if ghosts are touched when active, one chnace of pacman is taken away
+                     chances-1
+                     pacman moves in all directions but can't cross walls
+                     
+         -> balanced
+
+4. Adaptive -> increasing the difficulty level of game based on certain conditions
+            -> angry birds, pacman etc,.. difficulty increases with the increase in stage
+            -> trex, subway surfers,.. in the sam e stage, difficulty is raised based on ceratin values like score or distance coveredifficulty
+
+5. Chance vs Skill -> Chance: Pacman gets detected by the ghosts (unpredicted)
+                      Skill: manouvering the pacman away from ghost 
+
+6. Immediate feedback -> : Sounds, animation
+                         : Scores, Ranks, Rewards
+                        
+7. Story : Intrinsic (left to the assumption of the used), Extrinsic (is clearly defined)
+
+7-> 2-> 1-> 3 -> 4 -> ,5
